@@ -1,0 +1,137 @@
+body {
+    background-color: #041e27;
+    text-align: center;
+    background-image: url('./Photos/ResturantDiningArea.webp');
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #041E27;
+    width: 100%;
+    height: 108px;
+    color: #F1EDED;
+    font-family: Montserrat Alternates;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.title {
+    margin-left: 5px /* Add margin between the logo and the title as needed */
+}
+
+nav button {
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 0 10px;
+    border-radius: 50px;
+    background: #80480F;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.30);
+    width: 100px;
+    height: 30px;
+    color: #F1EDED;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+
+.mainbigbox{
+    width: 1240px;
+    height: 650px;
+    border-radius: 80px;
+    background: rgba(217, 217, 217, 0.35);
+    text-align: center;
+    margin: 100px;
+    color: #F1EDED;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 20px;
+    position: relative;
+}
+
+.mainsmallbox{
+    width: 1080px;
+    height: 120px;
+    border-radius: 40px;
+    background: rgba(4, 30, 39, 0.70);
+    text-align: center;
+    color: #F1EDED;
+    text-align: center;
+    font-family: Montserrat Alternates;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 20px;
+    position: absolute;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mainbigbox .first{
+    margin-top: 150px;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust as needed */
+    gap: 20px; /* Adjust as needed to add spacing between menu cards */
+  }
+  
+  .menu-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    width: 300px; /* Adjust the width as needed */
+    overflow: hidden;
+  }
+
+  .menu-title {
+    font-size: 24px;
+  }
+  
+  .menu-description {
+    display: none;
+    padding: 10px;
+  }
+  
+  .menu-description p {
+    margin: 10px 0;
+  }
+  
+  .menu-description img {
+    max-width: 100%;
+  }
